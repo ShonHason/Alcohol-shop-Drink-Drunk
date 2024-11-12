@@ -1,0 +1,82 @@
+<header>
+    <div id="background-image"></div>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container-fluid">
+            <h1> <a class="logo" href="/home">
+                    <video autoplay loop muted>
+                        <source src="/Drink Buddies.mp4" type="video/mp4">
+
+                </a>
+            </h1>
+
+            <ul class="navbar-nav">
+                <button type="button" class="btn btn-default btn-lg shopping-cart-button">
+                    <a href="/ShoppingCart" style="text-decoration: none;">
+                        <span class="glyphicon glyphicon-shopping-cart shopping-cart-icon"></span>
+                    </a>
+                </button>
+                <li class="nav-item">
+                    <a class="nav-link " href="/WhyUs">Why us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/aboutUs">About us</a>
+                </li>
+                <a class="nav-link " href="/AllItems">All Items</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/Beers">Beers</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/beers/IsraeliBeers">Israeli Beers</a></li>
+                        <li><a class="dropdown-item" href="/beers/WorldWideBeers">Worldwide Beers</a></li>
+
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/Wines">Wines</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/Wines/WHITE">White wine</a></li>
+                        <li><a class="dropdown-item" href="/Wines/RED">Red wine</a></li>
+                        <li><a class="dropdown-item" href="/Wines/ROSE">Rose wine</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Vodka">Vodka</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Whisky">Whisky</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contactUs">Contact Us</a>
+                </li>
+
+                <a href="/search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+                </a>
+            </ul>
+        </div>
+        <div>
+            <a class="Sign-in_up" href="/login">Login</a>
+            <a class="Sign-in_up" href="/Signup">SignUp</a>
+        </div>
+    </nav>
+</header>
+<!-- Rest of your content -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const searchForm = document.getElementById("searchForm");
+
+        if (searchForm) {
+            searchForm.addEventListener("submit", (event) => {
+                const currentPath = window.location.pathname;
+                searchForm.action = currentPath + "/search";
+            });
+        }
+    });
+</script>
+</body>

@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+.video-container {
+    text-align: center;
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+
+  .video-container iframe {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Center the video within the container */
+  }
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sorting-container {
+    margin-left: 135px;
+    /* Align the content to the right */
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.why-us-section {
+    flex: 1;
+    color: #ffffff;
+
+
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+body {
+    background-image: url("/view-beer-taps-brewer.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: auto 100% !important;
+    background-position: center center !important;
+}
+
+#background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/view-beer-taps-brewer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+
+
+header {
+
+    margin-left: 10px;
+    margin-right: 150px;
+}
+
+/* h1 {
+    font-family: 'Brush Script MT';
+} */
+
+.rounded-pill {
+    width: 9px;
+    /* Adjust this value to make the image larger */
+    height: auto;
+    /* Maintains the aspect ratio of the image */
+}
+
+.logo {
+    display: inline-block;
+    /* Ensures the link is treated as a block with inline properties */
+    margin-left: 10px;
+    /* Adjust this value to move the logo further left */
+    margin-top: 20px;
+    /* Adjust this value to control vertical alignment */
+    border-radius: 80%;
+    overflow: hidden;
+}
+
+.logo video {
+    width: 120px;
+    height: 120px;
+
+
+}
+
+.btn-lg {
+    margin-right: 10px;
+    /* Adjust margin to move the icon to the left */
+    margin-left: 0px;
+    /* Adjust margin to move the icon even more to the left */
+}
+
+
+.shopping-cart-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.shopping-cart-icon {
+    font-size: 18px;
+    /* Adjust font size for larger icon */
+
+}
+
+.navbar-nav.Sign-in_up {
+    right: 10px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: gray;
+}
+
+/* style.css */
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+    padding-bottom: 60px;
+
+}
+
+.jj {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent white background */
+    padding: 50px;
+    /* Adjust as needed */
+    border-radius: 10px;
+    /* Add some rounded corners */
+}
+
+.small-image {
+    max-width: 90px;
+    /* Adjust this value as needed */
+    height: 90px;
+    width: 90px;
+    /* Maintain the aspect ratio */
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+    display: flex;
+
+}
+
+/* Adjust font size and family for all text */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/* Adjust font size for card title and description */
+.card-title,
+.card-text {
+    font-size: 16px;
+    /* Adjust the font size as needed */
+}
+
+/* Make Buy Now and Add to Wishlist buttons smaller */
+.btn.btn-primary.btn-sm,
+.btn.btn-secondary.btn-sm {
+    font-size: 12px;
+    /* Adjust the font size as needed */
+    padding: 5px 10px;
+    /* Adjust padding as needed */
+}
+
+/* ... Your existing CSS rules ... */
+
+/* Adjust card size */
+.card {
+    max-width: 220px;
+    /* Adjust the max width of the card */
+    margin-bottom: 20px;
+    /* Add spacing between cards */
+}
+
+/* Center align card contents */
+.card-body {
+    text-align: center;
+
+}
+
+.smaller-image {
+    max-height: 150px;
+    /* Adjust this value to control the image height */
+    object-fit: contain;
+}
+
+.card-img-top {
+    height: 100px;
+    /* Adjust the height as needed */
+    object-fit: contain;
+    /* Display the full image while maintaining aspect ratio */
+    border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+    font-size: 18px;
+    /* Adjust font size for the title */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+    /* Adjust font size for the text */
+    margin-bottom: 10px;
+}
+
+.btn-primary.btn-sm,
+.btn-secondary.btn-sm {
+    font-size: 12px;
+    /* Adjust the font size as needed */
+    padding: 5px 10px;
+    /* Adjust padding as needed */
+}
+
+/* ... Other existing CSS rules ... */
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#demo {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.carousel-inner .carousel-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 0%,
+            rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 40%);
+    border-radius: 25%;
+}
+
+.carousel-inner .carousel-item img {
+    max-height: 450px;
+}
+
+.card {
+    margin: 10px;
+    flex: 1 1 300px;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* Set the background to transparent */
+    background-color: transparent;
+
+}
+
+
+#cardContainer h3 {
+    font-family: 'Comic Sans MS';
+    color: #9fb5ca;
+
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: scale-down;
+    border-radius: 10px 10px 0 0;
+    background-color: transparent;
+
+}
+
+.card-img-overlay {
+    background-color: transparent;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: transparent;
+
+}
+
+.card-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+
+
+
+
+footer .container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer section a {
+    margin-right: 30px;
+}
+
+
+
+
+
+
+/* Style for card container */
+.larger-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 10px;
+
+    background-color: transparent;
+
+}
+
+.product-detail {
+    max-width: 150px;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.product-detail img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    background-color: transparent;
+
+}
+
+.product-detail h2,
+.product-detail p {
+    font-size: 24px;
+    font-weight: 50;
+    margin: 10px 0;
+}
+
+.product-detail button {
+    margin-top: 10px;
+}

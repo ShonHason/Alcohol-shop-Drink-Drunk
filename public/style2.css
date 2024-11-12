@@ -1,0 +1,236 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #6e7377;
+    padding: 20px 0;
+    text-align: center;
+}
+
+body {
+    background-image: url("/colorfulldrinks.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: auto 100% !important;
+    background-position: center center !important;
+}
+
+#background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/colorfulldrinks.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+
+header {
+
+    margin-left: 10px;
+    margin-right: 150px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Reset default margins and paddings */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center align content horizontally and vertically */
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style for product card */
+.card {
+    width: 300px;
+    /* Set the width you want */
+    height: 300px;
+    /* Set the height to make it a square */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.card img {
+    max-height: 200px;
+    /* Adjust the max height to prevent images from invading other sections */
+    object-fit: cover;
+    /* Maintain aspect ratio while fitting within the container */
+}
+
+.card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.rounded-pill {
+    width: 9px;
+    /* Adjust this value to make the image larger */
+    height: auto;
+    /* Maintains the aspect ratio of the image */
+}
+
+.logo {
+    display: inline-block;
+    /* Ensures the link is treated as a block with inline properties */
+    margin-left: 10px;
+    /* Adjust this value to move the logo further left */
+    margin-top: 20px;
+    /* Adjust this value to control vertical alignment */
+}
+
+.logo img {
+    width: 130px;
+    height: 130px;
+
+}
+
+.btn-lg {
+    margin-right: 10px;
+    /* Adjust margin to move the icon to the left */
+    margin-left: 0px;
+    /* Adjust margin to move the icon even more to the left */
+}
+
+
+.shopping-cart-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+
+}
+
+.shopping-cart-icon {
+    font-size: 18px;
+    /* Adjust font size for larger icon */
+
+}
+
+.navbar-nav.sign-in_up {
+    right: 10px;
+    position: absolute;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+    display: flex;
+
+}
+
+/* Adjust font size and family for all text */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.card-title,
+.card-text {
+    font-size: 16px;
+    /* Adjust the font size as needed */
+}
+
+/* Make Buy Now and Add to Wishlist buttons smaller */
+.btn.btn-primary.btn-sm,
+.btn.btn-secondary.btn-sm {
+    font-size: 12px;
+    /* Adjust the font size as needed */
+    padding: 5px 10px;
+    /* Adjust padding as needed */
+}
+
+footer .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+footer section a {
+    margin-right: 15px;
+}
+
+.footer .text-dark {
+    font-size: 12px;
+    /* Adjust font size as needed */
+    padding: 10px 0;
+}
+
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+
+    height: 500px;
+}
+
+.google-map iframe {
+    height: 50%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+#mapheader {
+    font-size: 18px;
+    /* Adjust font size as needed */
+    color: black;
+}

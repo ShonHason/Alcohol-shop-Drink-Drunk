@@ -1,0 +1,36 @@
+section {
+    background-color: blanchedalmond;
+
+}
+
+
+
+
+fw-normal mb-3 pb-3 {
+    padding: auto;
+    font-family: 'Comic Sans MS';
+}
+
+.img-fluid {
+    border-radius: 1rem 0 0 1rem;
+    height: max-content;
+    width: max-content;
+}
+
+
+.mb-5 pb-lg-2 {
+    color: darkblue;
+
+}
+
+a {
+
+    font: bold;
+    color: blue;
+}
+
+#registerWindow {
+    display: none;
+    /* Add desired styles for the register window */
+    background-color: orange;
+}

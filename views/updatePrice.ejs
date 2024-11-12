@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Update Price</title>
+</head>
+<body>
+  <h1>Update Product Price</h1>
+  <form action="/updatePrice/updateProductPrice" method="post">
+    <label for="productName">Product Name:</label>
+    <input type="text" id="productName" name="productName" required>
+    <br>
+    <label for="newPrice">New Price:</label>
+    <input type="text" id="newPrice" name="newPrice" required>
+    <br>
+    <button type="submit">Update Price</button>
+  </form>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const successParam = urlParams.get('success');
+    const errorParam = urlParams.get('error');
+
+    if (successParam === 'true') {
+        alert('Price updated successfully');
+    } else if (errorParam === 'ProductNotFound') {
+        alert('Product not found');
+    } else if (errorParam === 'ServerError') {
+        alert('An error occurred on the server');
+    }
+</script>
+</body>
+</html

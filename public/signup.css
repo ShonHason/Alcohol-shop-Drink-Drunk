@@ -1,0 +1,22 @@
+section {
+    background-color: white;
+
+}
+
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+.col-md-6 col-lg-7 {
+    align-items: center;
+}
+
+.card-body p-4 p-lg-5 {
+    color: black;
+}
